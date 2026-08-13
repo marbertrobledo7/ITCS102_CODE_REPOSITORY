@@ -1,0 +1,7 @@
+star= "\t\t\t\t\t\t\t\t\t\t\t\t\t\*"
+star2="\t\t\t\t\t\t\t\t\t*\t\t\t\t\t\t\t\t\t\*"
+star3="\t\t\t\t\t\*\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\*"
+
+print(star)
+print(star2)
+print(star3)
