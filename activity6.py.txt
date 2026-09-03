@@ -1,2 +1,8 @@
+x=eval(input("12-->?"))
+
+total = n + 5
+
+print(type(x))
+
 name= input("What is your name? --> Marbert Robledo")
 print(Hi, ", name, ", how are your doing today?")
