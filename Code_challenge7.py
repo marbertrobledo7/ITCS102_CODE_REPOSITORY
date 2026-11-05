@@ -1,23 +1,8 @@
-
-size = int(input("Enter size --->"))
-code = 1
-
-for x in range(size):
-    for y in range(size - x - 1):
-        print(" ", end=" ")
-
-    for y in range(2 * x + 1):
-        print(code, end=" ")
-        code += 1
-
-    print()
-
-for x in range(size - 2, -1, -1):
-    for y in range(size - x - 1):
-        print(" ", end=" ")
-
-    for y in range(2 * x + 1):
-        print(code, end=" ")
-        code += 1
-
-    print()
+for x in range (5):
+    for y in range (5):
+        if x == 0 or x == 5 - 1 \
+         or y == 0 or y == 5 - 1:
+            print("*",end = " ")
+        else:
+             print(" ", end = " ")
+    print () 
